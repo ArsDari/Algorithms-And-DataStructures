@@ -1,6 +1,8 @@
-﻿cmake_minimum_required (VERSION 3.28)
+﻿cmake_minimum_required(VERSION 3.28)
 
-project ("Algorithms-And-DataStructures")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-add_subdirectory ("LW1")
-add_subdirectory ("LW2")
+project("Algorithms-And-DataStructures")
+
+add_subdirectory("LW1")
+add_subdirectory("LW2")
